@@ -42,3 +42,7 @@ void loop()
     client.publish("Lab17", "Lab17Connected");
   }
 }
+
+void callback(char *topic, byte *payload, unsigned int length) {
+  
+}
