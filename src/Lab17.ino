@@ -35,6 +35,6 @@ void loop()
   }
 }
 
-void callback(char *topic, byte *payload, unsigned int length)
-{
+void callback(char *topic, byte *payload, unsigned int length) {
+  
 }
